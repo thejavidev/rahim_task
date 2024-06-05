@@ -1,0 +1,44 @@
+.item {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.item .image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.item img {
+    width: 100%;
+    display: block;
+}
+
+.item span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 230px;
+    font-size: 20px;
+}
+
+.item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.item:hover .image {
+    transform: scale(1.2);
+}
+
+.item:hover span {
+    opacity: 1;
+}
