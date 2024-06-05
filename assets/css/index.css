@@ -674,7 +674,19 @@ ul.menu-footer-quick-links>li:before {
         top: 40%;
     }
 }
+/* .products .item img{
+    height: 400px;
+} */
 
+
+.products .item .last img{
+    height: 375px;
+}
+
+.products .item,
+.products .item .image{
+    height: 100%;
+}
 .product_bottom {
     margin-top: -50px;
     margin-bottom: 100px;
