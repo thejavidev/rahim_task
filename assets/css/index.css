@@ -678,11 +678,18 @@ ul.menu-footer-quick-links>li:before {
     height: 400px;
 } */
 
-
+.blogs_page .items .col-12{
+    margin-bottom: 20px;
+}
+.products .item img{
+    height: 100%;
+}
 .products .item .last img{
     height: 375px;
 }
-
+.products .item{
+    padding: 10px 0;
+}
 .products .item,
 .products .item .image{
     height: 100%;
